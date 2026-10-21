@@ -1,0 +1,61 @@
+/* 数字字体 */
+@font-face {
+	font-family: 'DIN-Condensed-Bold';
+	src:
+		local('DINCondensed-Bold'), local('DIN-Condensed-Bold'),
+		url('../font/DIN-Condensed-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+/* 中文字体 */
+@font-face {
+	font-family: 'SourceHanSansCN-Bold';
+	src:
+		local('SourceHanSansCN-Bold'),
+		url('../font/SourceHanSansCN-Bold.subset.woff2') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* 思源黑体 */
+@font-face {
+	font-family: 'SourceHanSansCN';
+	src:
+		local('SourceHanSansCN'),
+		url('../font/SourceHanSansCN.ttf.woff2') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Manrope-SemiBold';
+	src: local('Manrope-SemiBold'), url('../font/Manrope-SemiBold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bebas';
+	src: local('Bebas'), url('../font/Bebas.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PangMenZhengDaoBiaoTiTiMianFeiBan';
+	src:
+		local('PangMenZhengDaoBiaoTiTiMianFeiBan'),
+		url('../font/PangMenZhengDaoBiaoTiTiMianFeiBan-2.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'YouSheBiaoTiHei';
+	src:
+		local('YouSheBiaoTiHei'),
+		url('../font/YouSheBiaoTiHei-2.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+

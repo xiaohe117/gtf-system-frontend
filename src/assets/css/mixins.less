@@ -1,0 +1,58 @@
+// normal-font
+.normal-font {
+	font-size: @normal-font-size;
+	color: @normal-color;
+}
+.second-normal-font {
+	font-size: @second-font-size;
+	color: @normal-color;
+}
+.third-normal-font {
+	font-size: @third-font-size;
+	color: @normal-color;
+}
+
+// title-font
+.title-font {
+	font-size: @title-size;
+	color: @title-color;
+}
+.second-title-font {
+	font-size: @second-title-size;
+	color: @title-color;
+}
+.third-title-font {
+	font-size: @third-title-size;
+	color: @title-color;
+}
+
+// text-overflow ellipsis
+.one-row-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.two-row-ellipsis {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.six-row-ellipsis {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 6;
+	line-clamp: 6;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.seven-row-ellipsis {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 7;
+	line-clamp: 7;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

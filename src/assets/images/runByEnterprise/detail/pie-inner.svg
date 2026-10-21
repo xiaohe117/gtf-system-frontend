@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="123px" viewBox="0 0 123 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 49</title>
+    <defs>
+        <circle id="path-1" cx="59.3784264" cy="59.3784264" r="43.1843101"></circle>
+        <filter x="-56.4%" y="-56.4%" width="212.8%" height="212.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="47" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.356862745   0 0 0 0 0.560784314   0 0 0 0 0.976470588  0 0 0 0.19760708 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="工信局招商总览-目标企业详情" transform="translate(-516.000000, -360.000000)">
+            <g id="Group-49" transform="translate(517.914824, 362.233086)">
+                <g id="Oval-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke-opacity="0.591242864" stroke="#5B8FF9" stroke-width="2.4533821" xlink:href="#path-1"></use>
+                </g>
+                <path d="M59.4584318,118.756853 C92.296417,118.756853 118.916864,92.1722257 118.916864,59.3784264 C118.916864,26.584627 92.296417,0 59.4584318,0 C26.6204467,0 0,26.584627 0,59.3784264 C0,92.1722257 26.6204467,118.756853 59.4584318,118.756853 Z" id="Oval-2" stroke-opacity="0.575119339" stroke="#5B8FF9" stroke-width="3.27117613" stroke-dasharray="1.635588214057421,4.088970006390564"></path>
+            </g>
+        </g>
+    </g>
+</svg>

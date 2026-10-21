@@ -1,0 +1,22 @@
+/* 设计高度 42px → 0.42rem；字号 18px → 0.18rem；运行时由 CSS 变量注入 */
+@filter-control-height: var(--filter-control-height, 0.42rem);
+@filter-control-font-size: var(--filter-control-font-size, 0.18rem);
+@filter-control-padding-x: 0.11rem;
+@filter-control-radius: var(--el-border-radius-base);
+
+.filter-control-shell() {
+	display: inline-flex;
+	align-items: center;
+	height: @filter-control-height;
+	min-height: @filter-control-height;
+	max-height: @filter-control-height;
+	padding: 0 @filter-control-padding-x;
+	box-sizing: border-box;
+	border: 1px solid var(--el-border-color);
+	border-radius: @filter-control-radius;
+	background-color: var(--el-fill-color-blank);
+	box-shadow: none;
+	font-size: @filter-control-font-size;
+	line-height: 1;
+	color: var(--el-text-color-regular);
+}

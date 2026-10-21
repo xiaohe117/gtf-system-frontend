@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#8BCE9D" offset="0%"></stop>
+            <stop stop-color="#53A064" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.45596591%" x2="50%" y2="96.9542177%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.49" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.45596591%" x2="50%" y2="96.9542177%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.49" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="0317迭代" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0506招商总览-单位目标企业-展开状态" transform="translate(-210, -552)" fill-rule="nonzero">
+            <g id="编组-12" transform="translate(187, 387)">
+                <g id="编组-33" transform="translate(16, 71)">
+                    <g id="编组-24" transform="translate(0, 12)">
+                        <g id="编组-3" transform="translate(7, 80)">
+                            <g id="编组" transform="translate(0, 2)">
+                                <path d="M7,0 C3.14018749,0 0,3.08818365 0,6.88407481 C0,9.40899953 1.4260236,11.7456084 3.66067987,12.9432347 L3.66076164,15.8593668 C3.66076164,17.0397236 4.75681911,18 6.10401554,18 L7.89594358,18 C9.24311956,18 10.3391975,17.0397236 10.3391975,15.8593668 L10.3391975,12.9431744 C12.5739355,11.7455279 14,9.40893921 14,6.88407481 C14,3.08818365 10.8598125,0 7,0 Z" id="形状" fill="url(#linearGradient-1)"></path>
+                                <path d="M7.44898579,16 L5.55101421,16 C5.24671259,16 5,15.7761287 5,15.5 C5,15.2238713 5.24671259,15 5.55101421,15 L7.44898579,15 C7.75328741,15 8,15.2238713 8,15.5 C8,15.7761287 7.75328741,16 7.44898579,16 Z" id="路径" fill="url(#linearGradient-2)"></path>
+                                <path d="M7.44898579,14 L5.55101421,14 C5.24671259,14 5,13.7761287 5,13.5 C5,13.2238713 5.24671259,13 5.55101421,13 L7.44898579,13 C7.75328741,13 8,13.2238713 8,13.5 C8,13.7761287 7.75328741,14 7.44898579,14 Z" id="路径" fill="url(#linearGradient-2)"></path>
+                                <path d="M11.3773503,6 C11.0334875,6 10.7547007,5.74191549 10.7547007,5.42358744 C10.7547352,5.21554866 10.7355101,5.00788983 10.6972366,4.80289043 C10.4706393,3.59442688 9.60445329,2.58674205 8.38033869,2.10741389 C8.06353552,1.98339359 7.91537241,1.64517624 8.04936246,1.35199763 C8.18333107,1.05881903 8.54889299,0.921757538 8.86537453,1.0455992 C10.4812959,1.67830522 11.6248535,3.0092011 11.924203,4.60578389 C11.9747064,4.8758743 12.0000652,5.14948039 12,5.42358744 C12,5.74189564 11.7211916,6 11.3773503,6 L11.3773503,6 Z" id="路径" fill="url(#linearGradient-3)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

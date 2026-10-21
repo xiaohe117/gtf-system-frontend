@@ -1,0 +1,245 @@
+/**
+* 全局样式
+*/
+html,
+body,
+div,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+table {
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+}
+ul,
+ol {
+	list-style: none;
+}
+body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #cadcff;
+	font-size: 0.18rem;
+	font-family: 'PingFangSC,SourceHanSansCN-Bold,SourceHanSansCN';
+}
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+:root:root {
+	--van-toast-position-top-distance: 10%;
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+.position-rel {
+	position: relative;
+}
+
+// 超出隐藏，用...代替
+.overflow-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.text-ellipsis2 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* 设置显示的行数 */
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.border-box {
+	box-sizing: border-box;
+}
+
+// 清除浮动
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: '';
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.c-pointer {
+	cursor: pointer !important;
+}
+
+// x轴超出滚动
+.ov-x {
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+// y轴超出滚动
+.ov-y {
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.fx-r {
+	display: flex;
+}
+.fx-sp-b {
+	justify-content: space-between;
+}
+.fx-sp-a {
+	justify-content: space-around;
+}
+.fx-al-c {
+	align-items: center;
+}
+.fx-al-end {
+	align-items: flex-end;
+}
+.flex-x-center {
+	display: flex;
+	align-items: center;
+}
+.fx-c {
+	display: flex;
+	flex-direction: column;
+}
+.fx-1 {
+	flex: 1;
+}
+.fx-h {
+	flex-grow: 1;
+	height: 0;
+}
+.fx-w {
+	flex-grow: 1;
+	width: 0;
+}
+
+.not-margin {
+	margin: 0 !important;
+}
+.tip-text {
+	width: 4.45rem;
+	background: #273a51;
+	border-radius: 4px;
+	border: 2px solid #5d6b7c;
+}
+// 设置最大宽度限制
+.el-popper {
+	max-width: 8rem;
+}
+
+// 超过2行显示省略号
+.ellipsis-2-lines {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+//.el-button:focus{
+//	color:#606266;
+//	//border-color:#DCDFE6;
+//	background-color: transparent;
+//}
+.el-button--primary,
+.el-button--primary:hover,
+.el-button--primary:active,
+.el-button--primary:focus {
+	background-color: #165dff !important;
+	border-color: #165dff !important;
+	color: #fff;
+}
+.el-button:hover {
+	color: #fff;
+}
+.el-radio__input.is-checked .el-radio__inner {
+	background-color: #165dff !important;
+	border-color: #165dff !important;
+}
+.el-radio__input.is-checked + .el-radio__label {
+	color: #165dff !important;
+}
+.el-dialog {
+	.el-dialog__headerbtn {
+		background: url('@/assets/images/gtf/dialog-close.png') no-repeat center center;
+		background-size: 100%;
+		width: 0.72rem;
+		height: 0.63rem;
+		top: -0.01rem;
+		right: -0.01rem;
+		.el-dialog__close {
+			display: none;
+		}
+	}
+}
+
+.el-popper {
+	--el-popover-padding: 0.12rem;
+	--el-popover-title-font-size: 0.14rem;
+}
+
+.el-tabs {
+	--el-tabs-header-height: 0.4rem !important;
+	.el-tabs__nav {
+		width: 100%;
+	}
+	.el-tabs__header {
+		margin: 0 0 0.06rem 0;
+	}
+	.el-tabs__active-bar {
+		background-color: #2e79f8;
+		&::before {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			left: -0.15rem; // 左侧延长
+			right: -0.15rem; // 右侧延长
+			top: 0;
+			bottom: 0;
+			background-color: inherit;
+			z-index: -1;
+		}
+	}
+	.el-tabs__nav-wrap {
+		&::after {
+			background: linear-gradient(
+				90deg,
+				rgba(213, 232, 255, 0.45),
+				rgba(192, 218, 255, 1),
+				rgba(170, 204, 255, 0.16)
+			);
+			background-size: 0.02rem 0.02rem;
+		}
+	}
+	.el-tabs__item {
+		font-size: @g-font-size-base;
+		padding: 0 0.1rem;
+		--el-text-color-primary: rgba(0, 0, 0, 0.5);
+		&:hover {
+			color: #2e79f8;
+		}
+		&.is-active {
+			color: #2e79f8;
+			font-size: @g-font-size-medium;
+		}
+		&:nth-child(2) {
+			text-indent: 0.15rem;
+		}
+	}
+}
+.el-popper{
+	font-size: @g-font-size-base;
+}

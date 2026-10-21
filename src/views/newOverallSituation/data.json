@@ -1,0 +1,850 @@
+{
+	"projectOverview": {
+		"title": "项目总览",
+		"target": {
+			"label": "项目投资总额任务：",
+			"value": "10000",
+			"unit": "亿元"
+		},
+		"enterText": "点击进入",
+		"enterImage": "more.png",
+		"summaryImage": "summary-card-row.png",
+		"tableRowImage": "small-table-bg.png",
+		"summary": [
+			{
+				"label": "全年累计签约项目数量",
+				"value": "2186",
+				"unit": "个",
+				"trend": "up"
+			},
+			{
+				"label": "预计总投资",
+				"value": "6739.22",
+				"unit": "亿元"
+			},
+			{
+				"label": "任务完成率",
+				"value": "67.39",
+				"unit": "%"
+			}
+		],
+		"steps": [
+			{
+				"name": "线索",
+				"count": "1433",
+				"amount": "6769.39"
+			},
+			{
+				"name": "在谈",
+				"count": "924",
+				"amount": "4734.32"
+			},
+			{
+				"name": "签约",
+				"count": "1001",
+				"amount": "3570.65"
+			},
+			{
+				"name": "备案\n(注册)",
+				"count": "9326",
+				"amount": "10274.33"
+			},
+			{
+				"name": "开工",
+				"count": "1787",
+				"amount": "829.61"
+			},
+			{
+				"name": "投产\n(开票)",
+				"count": "87",
+				"amount": "6.61"
+			}
+		],
+		"rows": [
+			{
+				"label": ["本月结余\n数量(个)"],
+				"field": "count"
+			},
+			{
+				"label": ["投资总额", "(亿元)"],
+				"field": "amount"
+			}
+		]
+	},
+	"clueOverview": {
+		"title": "线索总览",
+		"enterImage": "more.png",
+		"target": {
+			"label": "意向投资总额任务：",
+			"value": "",
+			"unit": "亿元"
+		},
+		"summary": [
+			{
+				"label": "线索数量",
+				"value": "",
+				"unit": "个"
+			},
+			{
+				"label": "意向投资总额",
+				"value": "",
+				"unit": "亿元"
+			},
+			{
+				"label": "任务完成率",
+				"value": "",
+				"unit": "%"
+			}
+		],
+		"pie": {
+			"insidePercent": "48.6%",
+			"outsidePercent": "20.7%",
+			"data": [
+				{
+					"name": "市内来源",
+					"value": "21.7%"
+				},
+				{
+					"name": "市外来源",
+					"value": "54.8%"
+				},
+				{
+					"name": "未明确",
+					"value": "23.5%"
+				}
+			]
+		},
+		"sourceList": [
+			{
+				"name": "十亿元 +",
+				"count": "40",
+				"amount": "1403.52"
+			},
+			{
+				"name": "百亿元 +",
+				"count": "3",
+				"amount": "550"
+			},
+			{
+				"name": "十亿元 +",
+				"count": "108",
+				"amount": "3946.99"
+			},
+			{
+				"name": "百亿元 +",
+				"count": "11",
+				"amount": "1896.60"
+			}
+		]
+	},
+	"giOverview": {
+		"title": "招商GI",
+		"enterImage": "more.png",
+		"tabs": [
+			{
+				"label": "全市",
+				"key": "city"
+			},
+			{
+				"label": "部门",
+				"key": "department"
+			},
+			{
+				"label": "区",
+				"key": "district"
+			},
+			{
+				"label": "国企",
+				"key": "stateOwned"
+			}
+		],
+		"cards": {
+			"city": [
+				{
+					"label": "新签约招商项目投资总额",
+					"value": "6739.2",
+					"unit": "亿元",
+					"finishRate": "67.4%",
+					"compareLabel": "同比",
+					"rate": "50.4%",
+					"isUp": true,
+					"isWarning": false
+				},
+				{
+					"label": "投资十亿级项目数",
+					"value": "80",
+					"unit": "个",
+					"finishRate": "80%",
+					"compareLabel": "同比",
+					"rate": "-23.8%",
+					"isUp": false,
+					"isWarning": false
+				},
+				{
+					"label": "投资百亿级项目数",
+					"value": "8",
+					"unit": "个",
+					"finishRate": "80%",
+					"compareLabel": "同比",
+					"rate": "300%",
+					"isUp": true,
+					"isWarning": false
+				},
+				{
+					"label": "产值/营收百亿级项目数",
+					"value": "7",
+					"unit": "个",
+					"finishRate": "38.9%",
+					"compareLabel": "同比",
+					"rate": "0%",
+					"isUp": true,
+					"isWarning": true
+				},
+				{
+					"label": "新备案（注册）招商项目计划投资总额",
+					"value": "2933.5",
+					"unit": "亿元",
+					"finishRate": "112.8%",
+					"compareLabel": "同比",
+					"rate": "",
+					"isUp": null,
+					"isWarning": false
+				},
+				{
+					"label": "招商项目2026年实际完成固投金额",
+					"value": "",
+					"unit": "",
+					"finishRate": "",
+					"compareLabel": "同比",
+					"rate": "",
+					"isUp": null,
+					"isWarning": true
+				},
+				{
+					"label": "引荐有效招商线索意向投资总额",
+					"value": "7472.9",
+					"unit": "亿元",
+					"finishRate": "177.9%",
+					"compareLabel": "同比",
+					"rate": "",
+					"isUp": null,
+					"isWarning": false
+				},
+				{
+					"label": "提供有效应用场景数量",
+					"value": "25",
+					"unit": "个",
+					"finishRate": "8.1%",
+					"compareLabel": "同比",
+					"rate": "",
+					"isUp": null,
+					"isWarning": true
+				},
+				{
+					"label": "组织招商推介活动场次",
+					"value": "103",
+					"unit": "次",
+					"finishRate": "44.4%",
+					"compareLabel": "同比",
+					"rate": "",
+					"isUp": null,
+					"isWarning": true
+				},
+				{
+					"label": "目标企业走访总数",
+					"value": "523",
+					"unit": "家",
+					"finishRate": "86.6%",
+					"compareLabel": "同比",
+					"rate": "",
+					"isUp": null,
+					"isWarning": false
+				}
+			],
+			"department": [
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				}
+			],
+			"district": [
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				}
+			],
+			"stateOwned": [
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				},
+				{
+					"label": "新承包商招商项目投资国家",
+					"value": "88.99",
+					"unit": "亿元",
+					"compareLabel": "同比",
+					"rate": "5.5%",
+					"isUp": false
+				}
+			]
+		}
+	},
+	"visitOverview": {
+		"title": "大走访大对接",
+		"enterImage": "more.png",
+		"sectionTitle": "走访转化成果",
+		"summary": [
+			{
+				"label": "目标企业数",
+				"value": "",
+				"unit": "家",
+				"icon": "cube-icon.png"
+			},
+			{
+				"label": "已完成走访数",
+				"value": "513",
+				"unit": "家",
+				"icon": "cube-icon.png"
+			},
+			{
+				"label": "任务完成率",
+				"value": "84.9%",
+				"unit": "",
+				"icon": "cube-icon.png"
+			}
+		],
+		"columns": [
+			{
+				"prop": "name",
+				"label": "走访转化成果"
+			},
+			{
+				"prop": "count",
+				"label": "数量（个）"
+			},
+			{
+				"prop": "amount",
+				"label": "金额（亿元）"
+			}
+		],
+		"rows": [
+			{
+				"name": "转化线索",
+				"count": "54",
+				"amount": "645.5"
+			},
+			{
+				"name": "转化项目",
+				"count": "8",
+				"amount": "46.39"
+			},
+			{
+				"name": "新增意向企业",
+				"count": "20",
+				"amount": "-"
+			}
+		],
+		"sideList": [
+			{
+				"label": "议定事项",
+				"value": "35",
+				"unit": "个",
+				"icon": "metric-icon-small-blue.png"
+			},
+			{
+				"label": "企业诉求",
+				"value": "5",
+				"unit": "条",
+				"icon": "metric-icon-small-yellow.png"
+			}
+		]
+	},
+	"activityOverview": {
+		"title": "活动总览",
+		"target": {
+			"label": "任务数：",
+			"value": "",
+			"unit": "场",
+			"completionRate": "84.4%"
+		},
+		"totalCount": {
+			"label": "组织活动数",
+			"value": "152",
+			"unit": "场"
+		},
+		"activityTypes": [
+			{
+				"name": "\"热气腾腾\"系列",
+				"value": "12",
+				"icon": "metric-icon-large.png"
+			},
+			{
+				"name": "展会招商",
+				"value": "--",
+				"icon": "metric-icon-large-alt.png"
+			}
+		],
+		"activityStats": [
+			{
+				"code": "enterprise",
+				"name": "活动对接企业数",
+				"number1": "237",
+				"unit1": "家",
+				"number2": "",
+				"unit2": ""
+			},
+			{
+				"code": "intention",
+				"name": "产生意向线索数",
+				"number1": "188",
+				"unit1": "条",
+				"number2": "",
+				"unit2": ""
+			},
+			{
+				"code": "clue",
+				"name": "转化线索",
+				"number1": "92",
+				"unit1": "条",
+				"number2": "198.44",
+				"unit2": "亿元"
+			},
+			{
+				"code": "project",
+				"name": "转化项目",
+				"number1": "44",
+				"unit1": "条",
+				"number2": "46.16",
+				"unit2": "亿元"
+			}
+		]
+	},
+	"sceneOverview": {
+		"title": "场景总览",
+		"enterImage": "more.png",
+		"target": {
+			"label": "任务数：",
+			"value": "310",
+			"suffix": "8.1%"
+		},
+		"summary": [
+			{
+				"label": "提交场景数",
+				"value": "392",
+				"trend": "↑"
+			},
+			{
+				"label": "符合场景数",
+				"value": "251",
+				"trend": "↑"
+			},
+			{
+				"label": "有效场景数",
+				"value": "25",
+				"trend": "↑"
+			}
+		],
+		"columns": [
+			{
+				"prop": "name",
+				"label": "12218产业体系",
+				"minWidth": 170
+			},
+			{
+				"prop": "open",
+				"label": "开放方\n场景(个)",
+				"minWidth": 96
+			},
+			{
+				"prop": "ability",
+				"label": "能力方\n场景(个)",
+				"minWidth": 96
+			},
+			{
+				"prop": "publish",
+				"label": "已发布\n场景(个)",
+				"minWidth": 96
+			},
+			{
+				"prop": "project",
+				"label": "转化项目\n数(个)",
+				"minWidth": 96
+			},
+			{
+				"prop": "invest",
+				"label": "预计总投资\n(万元)",
+				"minWidth": 96
+			}
+		],
+		"rows": [
+			{
+				"name": "智能装备与机器人",
+				"open": 37,
+				"ability": 4,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "人工智能",
+				"open": 23,
+				"ability": 3,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "低空经济与航空航天",
+				"open": 19,
+				"ability": 2,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "专业服务",
+				"open": 19,
+				"ability": 2,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "智能网联与新能源汽车",
+				"open": 16,
+				"ability": 5,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "软件与互联网",
+				"open": 15,
+				"ability": 2,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "智能无人系统",
+				"open": 13,
+				"ability": 1,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "新能源与新型储能",
+				"open": 11,
+				"ability": 3,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "现代商贸",
+				"open": 10,
+				"ability": 1,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "生物医药与健康",
+				"open": 9,
+				"ability": 8,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "科技服务",
+				"open": 9,
+				"ability": 3,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "旅游休闲",
+				"open": 9,
+				"ability": 0,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "其他产业",
+				"open": 8,
+				"ability": 3,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "智能建造与工业化建筑",
+				"open": 8,
+				"ability": 3,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "具身智能",
+				"open": 6,
+				"ability": 1,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "绿色石化与新材料",
+				"open": 6,
+				"ability": 1,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "物流与供应链",
+				"open": 4,
+				"ability": 2,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "时尚消费品",
+				"open": 4,
+				"ability": 1,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "现代金融",
+				"open": 4,
+				"ability": 0,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "轨道交通",
+				"open": 4,
+				"ability": 0,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "文化创意",
+				"open": 3,
+				"ability": 1,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "前沿新材料",
+				"open": 3,
+				"ability": 0,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "会展",
+				"open": 3,
+				"ability": 0,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "生物制造",
+				"open": 2,
+				"ability": 0,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "半导体与集成电路",
+				"open": 1,
+				"ability": 2,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "超高清视频与新型显示",
+				"open": 1,
+				"ability": 1,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "船舶与海洋工程",
+				"open": 0,
+				"ability": 2,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			},
+			{
+				"name": "未来网络与量子科技",
+				"open": 0,
+				"ability": 1,
+				"publish": 0,
+				"project": 0,
+				"invest": 0
+			}
+		]
+	},
+	"intelligenceOverview": {
+		"infoList": [
+			{
+				"title": "当县医院也用上顶级三甲的\"超瞳孔\"",
+				"date": "2026-05-26"
+			},
+			{
+				"title": "浙江众成：公司截至2026年5月10日...",
+				"date": "2026-05-26"
+			},
+			{
+				"title": "浙江众成：公司截至2026年5月10日...",
+				"date": "2026-05-26"
+			},
+			{
+				"title": "浙江众成：公司截至2026年5月10日...",
+				"date": "2026-05-26"
+			}
+		]
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1.Bace基础/3.Icon图标/其他/control.platform</title>
+    <g id="0317迭代" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.3后台框架-默认" transform="translate(-41, -144)">
+            <g id="3.Navigation导航/4.Menu-导航菜单/平铺式侧边导航/收起" transform="translate(-26.8933, 111)">
+                <g id="3.Navigation导航/4.Menu-导航菜单/基础控件/左侧导航/收起备份-2" transform="translate(52.8933, 27)">
+                    <g id="1.Bace基础/3.Icon图标/其他/control.platform" transform="translate(15, 6)">
+                        <path d="M0,0 L24,0 L24,24 L0,24 Z" id="矩形" opacity="9.99999975e-05"></path>
+                        <path d="M17.5470097,6.71034994 L16.440033,7.81732578 C15.1083584,7.13498425 13.5991379,6.75 12,6.75 C6.73228397,6.75 2.44027419,10.927494 2.25615449,16.1502983 L2.25,16.5 L0.75,16.5 C0.75,10.2867966 5.78679657,5.25 12,5.25 C14.0170029,5.25 15.9100296,5.78080666 17.5470097,6.71034994 Z M20.6826736,12.0599665 L21.7896492,10.9529903 C22.6630486,12.4910963 23.1844254,14.2552528 23.2442207,16.1359039 L23.25,16.5 L21.75,16.5 C21.75,14.9008621 21.3650162,13.3916416 20.6826736,12.0599665 Z M21.0156097,6.42372837 L11.4696693,15.9696693 L12.5303295,17.0303307 L22.0762711,7.48438854 L21.0156097,6.42372837 Z" id="dashboard" fill-opacity="0.9" fill="#000000"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

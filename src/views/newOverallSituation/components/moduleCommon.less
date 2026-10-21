@@ -1,0 +1,186 @@
+.module {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	min-height: 0;
+	overflow: hidden;
+	color: white;
+	font-size: 0.13rem;
+}
+
+.module-frame.outside {
+	width: 100%;
+	height: 100%;
+	min-height: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: url('../image/boxback.png') center / 100% 100% no-repeat;
+	border-radius: 0;
+	box-shadow: 0px 0px 0.06rem 0px rgba(25, 43, 138, 0.34);
+}
+
+.module-frame.outside :deep(.outside-content) {
+	box-sizing: border-box;
+	min-height: 0;
+	overflow: hidden;
+	padding: clamp(0.06rem, 0.75vh, 0.08rem) clamp(0.07rem, 0.55vw, 0.1rem)
+		clamp(0.07rem, 0.8vh, 0.09rem);
+	// box-shadow: -0.08rem 0rem 0.01rem 0rem rgba(25, 43, 138, 0.34), 0.08rem 0rem 0.01rem 0rem rgba(188, 200, 255, 0.5);
+	background: transparent;
+}
+
+.module-frame.outside :deep(.outside-content > div) {
+	height: 100%;
+	min-height: 0;
+	overflow: hidden;
+}
+
+.module-header {
+	position: relative;
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) clamp(0.76rem, 4.8vw, 0.86rem);
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 0.04rem;
+	flex: 0 0 clamp(0.3rem, 3.9vh, 0.41rem);
+	min-width: 0;
+	padding: 0 0.02rem clamp(0.02rem, 0.4vh, 0.04rem) 0.02rem;
+	background: transparent;
+
+	// &::after {
+	// 	position: absolute;
+	// 	left: 0;
+	// 	right: 0;
+	// 	bottom: 0.04rem;
+	// 	height: 0.02rem;
+	// 	content: '';
+	// 	background: linear-gradient(90deg, rgba(55, 164, 255, 0.58), rgba(128, 209, 255, 0.36), rgba(55, 164, 255, 0));
+	// }
+}
+
+.compact-header {
+	grid-template-columns: auto minmax(0, 1fr) clamp(0.76rem, 4.8vw, 0.86rem);
+	column-gap: 0.06rem;
+}
+
+.header-left {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	min-width: 0;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/** 标题区：与招商情报 tabs-item 一致，背景用 div 而非伪元素 */
+.header-title-item {
+	position: relative;
+	flex: 0 0 auto;
+	--header-title-height: clamp(0.36rem, 4.4vh, 0.46rem);
+	height: var(--header-title-height);
+	background: url('../image/step-base.png') left top / 1rem 74% no-repeat;
+
+	.module-title {
+		position: relative;
+		z-index: 1;
+		display: block;
+		margin-right: 0;
+		padding-left: 0.22rem;
+		padding-right: 0.01rem;
+		font-family: SourceHanSansCN-Bold;
+		font-size: clamp(0.18rem, 2.3vh, 0.24rem);
+		line-height: var(--header-title-height);
+		background: linear-gradient(180deg, #4f98ff 0%, #1936a9 100%);
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+		text-shadow: none;
+	}
+
+	.title-bg {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+	}
+}
+
+.module-title {
+	position: relative;
+	z-index: 1;
+	flex: 0 0 auto;
+	margin-right: 0.04rem;
+	font-family: SourceHanSansCN-Bold;
+	font-size: clamp(0.18rem, 2.3vh, 0.24rem);
+	background: linear-gradient(180deg, #4f98ff 0%, #1936a9 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	text-shadow: none;
+}
+
+.target-text,
+.header-left > span:not(.module-title) {
+	position: relative;
+	z-index: 1;
+	font-family: SourceHanSansCN-Bold;
+	font-size: clamp(0.14rem, 1.75vh, 0.17rem);
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.header-left strong {
+	position: relative;
+	z-index: 1;
+	margin: 0 0.04rem 0 0;
+	font-family: SourceHanSansCN-Bold;
+	font-size: clamp(0.16rem, 1.95vh, 0.2rem);
+	color: #165dff;
+}
+
+.enter-btn {
+	position: relative;
+	z-index: 1;
+	justify-self: end;
+	flex: 0 0 auto;
+	width: clamp(0.82rem, 5.3vw, 1rem);
+	height: clamp(0.2rem, 2.4vh, 0.26rem);
+	padding: 0;
+	border: 0;
+	background: transparent;
+	box-shadow: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+}
+
+.metric-label {
+	font-family: SourceHanSansCN-Bold;
+	color: #1b2f4a;
+}
+
+.metric-value {
+	margin-top: 0.04rem;
+	color: #2b3b55;
+
+	span {
+		font-family: SourceHanSansCN-Bold;
+		font-size: 0.19rem;
+		color: #147bff;
+	}
+
+	small {
+		margin-left: 0.04rem;
+		font-size: 0.12rem;
+		color: #536172;
+	}
+}

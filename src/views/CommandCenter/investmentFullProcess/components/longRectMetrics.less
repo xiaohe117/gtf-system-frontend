@@ -1,0 +1,100 @@
+.long-metrics {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 0.05rem;
+	width: 100%;
+	min-width: 0;
+	height: 0.66rem;
+	margin-bottom: 0.04rem;
+	background: url('@/assets/images/investmentFullProcess/long-rect-bg.png') center / 100% 100%
+		no-repeat;
+}
+
+.metrics-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 0;
+}
+
+.metrics-group {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-around;
+	min-width: 0;
+	&.group-left {
+		flex: 1;
+	}
+	&.group-right {
+		flex: 1.1;
+	}
+
+	&.group-left .metric-label {
+		width: 1rem;
+	}
+
+	&.group-right .metric-label {
+		width: 0.44rem;
+	}
+
+	&.group-left-wide .metric-label {
+		width: 1.12rem;
+	}
+
+	&.group-right-md .metric-label {
+		width: 0.72rem;
+	}
+
+	&.group-right-wide .metric-label {
+		width: 0.86rem;
+	}
+}
+
+.metric-label {
+	flex-shrink: 0;
+	font-weight: 500;
+	font-size: 0.14rem;
+	line-height: 0.16rem;
+	color: #333333;
+	text-align: right;
+	white-space: nowrap;
+}
+
+.metric-value {
+	font-weight: bold;
+	font-size: 0.17rem;
+	line-height: 0.23rem;
+	color: #165dff;
+}
+
+.metric-unit {
+	margin-left: 0.06rem;
+	flex-shrink: 0;
+	font-weight: 400;
+	font-size: 0.14rem;
+	line-height: 0.16rem;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.metric-suffix,
+.metric-trend {
+	font-weight: 600;
+	font-size: 0.17rem;
+	color: #165dff;
+	line-height: 0.23rem;
+	padding: 0 0.06rem;
+	flex-shrink: 0;
+}
+
+.metric-trend {
+	color: rgba(0, 0, 0, 0.45);
+}
+
+.meeting-arrow {
+	flex-shrink: 0;
+	width: 0.3rem;
+	height: 0.11rem;
+	object-fit: contain;
+	margin: 0 0.1rem;
+}

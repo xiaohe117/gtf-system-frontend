@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1.Bace基础/3.Icon图标/其他/control.platform</title>
+    <g id="0317迭代" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.3后台框架-默认" transform="translate(-41, -428)">
+            <g id="3.Navigation导航/4.Menu-导航菜单/平铺式侧边导航/收起" transform="translate(-26.8933, 111)">
+                <g id="3.Navigation导航/4.Menu-导航菜单/基础控件/左侧导航/收起备份" transform="translate(52.8933, 311)">
+                    <g id="root.list" transform="translate(15, 6)">
+                        <path d="M0,0 L24,0 L24,24 L0,24 Z" id="root.list-(Background)"></path>
+                        <path d="M0,0 L24,0 L24,24 L0,24 Z" id="矩形" opacity="9.99999975e-05"></path>
+                        <path d="M21.75,19.5 C21.75,20.3284275 21.0784264,21 20.25,21 L3.75,21 C2.92157283,21 2.25,20.3284275 2.25,19.5 L2.25,4.2 C2.25,3.5372583 2.7872583,3 3.45,3 L20.55,3 C21.2127417,3 21.75,3.5372583 21.75,4.2 L21.75,19.5 L21.75,19.5 Z M3.75,4.5 L3.75,19.5 L20.25,19.5 L20.25,4.5 L3.75,4.5 Z M6,6.75 L6,8.25 L18,8.25 L18,6.75 L6,6.75 Z M6,10.5 L6,12 L15,12 L15,10.5 L6,10.5 Z" id="root-list" fill-opacity="0.9" fill="#000000"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

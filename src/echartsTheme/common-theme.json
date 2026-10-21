@@ -1,0 +1,154 @@
+{
+	"color": [
+		"#4F9EFD",
+		"#00E9EA",
+		"#FFDD70",
+		"#FC5A5A",
+		"#FF913F",
+		"#00EA9C",
+		"#7662D6",
+		"#FFFFFF",
+		"#EE54E3",
+		"#C3EE54",
+		"#C34B69"
+	],
+	"textStyle": {
+		"fontFamily": "SourceHanSansCN-Bold",
+		"fontSize": 18,
+		"color": "#CBDDFF"
+	},
+	"title": {
+		"padding": 0,
+		"itemGap": 0,
+		"subtextStyle": {
+			"color": "#CBDDFF",
+			"fontSize": 20,
+			"fontFamily": "SourceHanSansCN-Bold"
+		},
+		"textStyle": {
+			"color": "#CBDDFF",
+			"fontSize": 20,
+			"fontFamily": "SourceHanSansCN-Bold"
+		}
+	},
+	"line": {
+		"itemStyle": {
+			"borderWidth": 0
+		},
+		"lineStyle": {
+			"width": 2
+		},
+		"symbol": "circle",
+		"symbolSize": 10,
+		"smooth": false
+	},
+	"bar": {
+		"itemStyle": {
+			"barBorderWidth": 0
+		},
+		"barWidth": 20,
+		"barGap": "16.7%"
+	},
+	"pie": {
+		"label": {
+			"show": false
+		},
+		"labelLine": {
+			"show": false
+		},
+		"itemStyle": {
+			"borderWidth": 0,
+			"borderColor": "#666"
+		}
+	},
+	"categoryAxis": {
+		"axisLine": {
+			"show": false
+		},
+		"axisTick": {
+			"show": false
+		},
+		"axisLabel": {
+			"show": true,
+			"color": "#CBDDFF",
+			"fontSize": 16,
+			"fontFamily": "SourceHanSansCN-Bold"
+		},
+		"splitLine": {
+			"show": false
+		},
+		"splitArea": {
+			"show": false
+		}
+	},
+	"valueAxis": {
+		"nameGap": 24,
+		"nameTextStyle": {
+			"fontSize": 20
+		},
+		"axisLine": {
+			"show": false,
+			"lineStyle": {
+				"color": "#000"
+			}
+		},
+		"axisTick": {
+			"show": false,
+			"lineStyle": {
+				"color": "#000"
+			}
+		},
+		"axisLabel": {
+			"show": true,
+			"color": "#CBDDFF",
+			"fontSize": 24,
+			"fontFamily": "DIN-Condensed-Bold",
+			"padding": [0, 0, -14, 0],
+			"verticalAlign": "bottom"
+		},
+		"splitLine": {
+			"show": true,
+			"lineStyle": {
+				"color": "#ffffff",
+				"width": 1,
+				"opacity": 0.1
+			}
+		},
+		"splitArea": {
+			"show": false
+		}
+	},
+	"legend": {
+		"padding": 0,
+		"textStyle": {
+			"color": "#CADCFF"
+		},
+		"icon": "circle",
+		"itemHeight": 10,
+		"itemWidth": 10,
+		"itemGap": 16
+	},
+	"tooltip": {
+		"trigger": "axis",
+		"backgroundColor": "#031124",
+		"borderWidth": 0,
+		"textStyle": {
+			"color": "#CBDDFF",
+			"fontSize": 16
+		},
+		"padding": [12, 16],
+		"axisPointer": {
+			"type": "line",
+			"shadowStyle": {
+				"color": "rgba(255, 255, 255, 0.1)"
+			},
+			"lineStyle": {
+				"type": "solid",
+				"color": "#FFF",
+				"opacity": 0.1,
+				"width": 64
+			}
+		},
+		"confine": true
+	}
+}
